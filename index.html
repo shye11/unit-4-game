@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <container id = "container1">
+        <h1>Crystal Collector!</h1>
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win by matching your score to the goal score. You lose if your total score goes above the goal score.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>When a new round starts, the value the crystals will change.</p>
+            <p id = "goal">Goal: <span id ="goal-num"></span></p>
+            <p id = "userScore">Your Score: <span id ="user-score"></span></p>
+            <p id = "wins">Wins: <span id ="win-span"></span></p>
+            <p id = "losses">Losses: <span id ="loss-span"></span></p>
+            <div id = "crystal1" class = "crystal crystalval"></div>
+            <div id = "crystal2" class = "crystal crystalval"></div>
+            <div id = "crystal3" class = "crystal crystalval"></div>
+            <div id = "crystal4" class = "crystal crystalval"></div>
+    </container>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+</body>
+</html>

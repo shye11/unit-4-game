@@ -1,0 +1,47 @@
+.crystal {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 10px;
+}
+
+#crystal1 {
+    background-image: url("../images/crystal1.jpg");
+}
+
+#crystal2 {
+    background-image: url("../images/crystal2.jpg");
+}
+
+#crystal3 {
+    background-image: url("../images/crystal3.jpg");
+}
+
+#crystal4 {
+    background-image: url("../images/crystal4.jpg");
+}
+
+#container1 {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    height: 400px;
+    margin-top: -200px; /* half of you height */
+    width: 900px;
+    margin-left: -200px; /* half of you width */
+}
+
+p {
+   text-align: center; 
+}
+
+body {
+    background-color: black;
+    color: white; 
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
